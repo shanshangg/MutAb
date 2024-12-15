@@ -7,7 +7,7 @@ Install the python requirements for running myPDB_modified.py:
 ```bash
 conda env create -f bin/PAIRPred/environment.yaml
 ```
-2. Install [PECAN] by building from source according to the instructions on the authors github [repository](https://github.com/vamships/PECAN). Replace the files GCN_xTransfer/sample_experiment_attn2.py and GCN_xTransfer/experiments/node_edge_attn2.yml with the versions provided in this repository and set the path for the input files in node_edge_attn2.yml.
+2. Install [PECAN](https://pmc.ncbi.nlm.nih.gov/articles/PMC7332568/) by building from source according to the instructions on the authors github [repository](https://github.com/vamships/PECAN). Replace the files GCN_xTransfer/sample_experiment_attn2.py and GCN_xTransfer/experiments/node_edge_attn2.yml with the versions provided in this repository and set the path for the input files in node_edge_attn2.yml.
 ```bash
 conda env create -f bin/PECAN/environment.yaml
 ```
