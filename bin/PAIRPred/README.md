@@ -14,8 +14,7 @@ pip install biopython==1.60
 conda install matplotlib=2.2.3
 wget https://combi.cs.colostate.edu/supplements/pairpred/PAIRPred.zip
 unzip PAIRPred.zip
-cp bin/myPDB_modified.py  /path/to/PAIRPred/
-
+cp bin/myPDB_modified.py  /path/to/PAIRPred/myPDB.py
 
 conda activate PAIRPred
-python myPDB_modified.py input_PDB_file output_path
+python myPDB.py input_PDB_file output_path

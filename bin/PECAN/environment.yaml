@@ -1,0 +1,14 @@
+name: PECAN
+channels:
+  - defaults
+dependencies:
+  - python=2.7.15
+  - pyyaml=3.13
+  - numpy=1.14.5
+  - pandas=0.23.4
+  - cudatoolkit=10.0.130=0
+  - cudnn=7.6.5=cuda10.0_0
+  - pip:
+      - scikit-learn==0.20.4
+      - tensorflow==1.10.0
+prefix: /your/path/.conda/envs/PECAN

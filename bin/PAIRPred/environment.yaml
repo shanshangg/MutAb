@@ -1,0 +1,14 @@
+name: PAIRPred
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=2.7.15
+  - pyyaml=3.13
+  - numpy=1.14.5
+  - pandas=0.23.4
+  - scipy=1.1.0
+  - matplotlib=2.2.3
+  - pip:
+    - biopython==1.60
+prefix: /your/path/.conda/envs/PAIRPred
